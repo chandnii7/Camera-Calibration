@@ -35,7 +35,7 @@ Program was implemented using Python and OpenCV. Refer the report for further im
 
 5. For more noisy data, we get huge mean square error with RANSAC as it fails completely. This is because of 2 main reasons:
    * RANSAC does not work well with low inlier ratios as every point in the dataset gets a vote just for being in the model. This makes the model more robust towards outliers. So, we need more inliers and less outlier for RANSAC to work properly. It does not work well as especially when there are more than 50% outliers.
-   * RANSAC is also not reliable when there are a lot of param
+   * RANSAC is also not reliable when there are a lot of parameters to tune. Here, we have 12 parameters which makes it more complicated.
 
 
 
