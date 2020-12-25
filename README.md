@@ -1,13 +1,11 @@
 # Non-Planar Camera Calibration
 
-Program 1 performs feature extraction from an input picture.
-<br/>Purpose:
+Program 1 performs feature extraction from an input picture. Main purpose:
 1. Generate chessboard features automatically using OpenCV
 2. Manually select features through mouse click
 <br/>
 
-Program 2 performs non-planar camera calibration using the feature points provided in the input file.
-<br/>Purpose:
+Program 2 performs non-planar camera calibration using the feature points provided in the input file. Main purpose:
 1. Non-planar Camera Calibration
 2. Mean Square Error between known points and computed points
 3. Random Sample Consensus (RANSAC) algorithm for projection matrix
@@ -20,7 +18,7 @@ Program was implemented using Python and OpenCV. Refer the report for further im
 
 ### Results:
 1. Input File Example:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out1.jpg" height="300" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out1.jpg" height="200" width="300"/>
 <br/>
 
 2. Features Extracted:
@@ -28,11 +26,11 @@ Program was implemented using Python and OpenCV. Refer the report for further im
 <br/>
 
 3. Non-planar Camara Calibration Example:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out2.jpg" height="300" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out2.jpg" height="400" width="300"/>
 <br/>
 
 4. Non-planar Camara Calibration with RANSAC using noisy data Example:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out3.jpg" height="300" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out3.jpg" height="400" width="300"/>
 <br/>
 
 5. For more noisy data, we get huge mean square error with RANSAC as it fails completely. This is because of 2 main reasons:
