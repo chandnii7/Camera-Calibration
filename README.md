@@ -1,11 +1,11 @@
 # Non-Planar Camera Calibration
 
-Program 1 performs feature extraction from an input picture. Main purpose:
+Program 1 performs feature extraction from an input picture based on 2D image points and corresponding 3D world points. Main purpose:
 1. Generate chessboard features automatically using OpenCV
 2. Manually select features through mouse click
 <br/>
 
-Program 2 performs non-planar camera calibration using the feature points provided in the input file. Main purpose:
+Program 2 performs non-planar camera calibration using the feature points provided in the input file (3D world points and corresponding 2D image points). Main purpose:
 1. Non-planar Camera Calibration
 2. Mean Square Error between known points and computed points
 3. Random Sample Consensus (RANSAC) algorithm for projection matrix
