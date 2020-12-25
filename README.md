@@ -18,19 +18,19 @@ Program was implemented using Python and OpenCV. Refer the report for further im
 
 ### Results:
 1. Input File Example:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out1.jpg" height="200" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out1.jpg" height="200" width="350"/>
 <br/>
 
 2. Features Extracted:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out.jpg" height="300" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out.jpg" height="350" width="350"/>
 <br/>
 
 3. Non-planar Camara Calibration Example:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out2.jpg" height="400" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out2.jpg" height="400" width="350"/>
 <br/>
 
 4. Non-planar Camara Calibration with RANSAC using noisy data Example:
-<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out3.jpg" height="400" width="300"/>
+<img src="https://github.com/chandnii7/CameraCalibration/blob/main/data/out3.jpg" height="400" width="350"/>
 <br/>
 
 5. For more noisy data, we get huge mean square error with RANSAC as it fails completely. This is because of 2 main reasons:
