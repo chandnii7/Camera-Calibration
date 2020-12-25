@@ -1,6 +1,6 @@
 # Non-Planar Camera Calibration
 
-Program 1 performs feature extraction from a chessboard picture.
+Program 1 performs feature extraction from an input picture.
 <br/>Purpose:
 1. Generate chessboard features automatically using OpenCV
 2. Manually select features through mouse click
