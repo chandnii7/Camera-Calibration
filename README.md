@@ -1,4 +1,4 @@
-# Non-Planar Camera Calibration
+# Camera Calibration for Computer Vision
 
 Program 1 performs feature extraction from an input picture based on 2D image points and corresponding 3D world points. Main purpose:
 1. Generate chessboard features automatically using OpenCV
